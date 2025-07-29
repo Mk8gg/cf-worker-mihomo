@@ -200,7 +200,7 @@ dns:
     - "quic://dns.alidns.com" # 阿里 DNS over DOQ
   direct-nameserver: #  用于直连出口域名解析的 DNS 服务器
     - "quic://dns.alidns.com" # 阿里 DNS over DOQ
-  direct-nameserver-follow-policy: true # 是否遵循 nameserver-policy，默认为不遵守，仅当 direct-nameserver 不为空时生效
+  direct-nameserver-follow-policy: false # 是否遵循 nameserver-policy，默认为不遵守，仅当 direct-nameserver 不为空时生效
 
 rule-providers:
   CN:
